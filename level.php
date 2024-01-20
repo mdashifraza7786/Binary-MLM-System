@@ -19,7 +19,6 @@
                 if (isset($_REQUEST['user_id'])) {
                   $level_sponsor=$_REQUEST['user_id'];
                   if (check_my_downline($level_sponsor,$my_id)) {
-                    // code...
                   }else {
                     $level_sponsor=$my_id;
                   }
