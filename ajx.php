@@ -1,8 +1,8 @@
 <?php
 $db_host="localhost";
-$db_user='ashifraz_mlm';
-$db_pass='Ashif@786';
-$db_name='ashifraz_mlm';
+$db_user='database_user';
+$db_pass='database_pass';
+$db_name='database_name';
 $conn=mysqli_connect($db_host,$db_user,$db_pass,$db_name);
 if (!$conn) {
   echo "Not connect";
